@@ -1,0 +1,45 @@
+.loops-root {
+  text-align: center;
+  display:flexbox;
+}
+
+.buttons{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  position: relative;
+  margin: 5%;
+}
+.buttons > div {
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.buttons {
+  font-size: 2vw;
+  vertical-align: middle;
+  color: rgb(58, 57, 57);
+  cursor: pointer;
+  padding: 0.8vw;
+  margin: 12px;
+}
+
+.record{
+  color: rgb(199, 9, 9);
+  font-size: 1.5vw;
+}
+
+.image-icon{
+  color: rgb(223, 219, 219);
+  font-size: 1.5vw;
+}
+
+ 
